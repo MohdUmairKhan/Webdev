@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Module2</title>
+        <style>
+            marquee{
+                color:crimson;
+                font-size: 40px;
+                font-family: sans-serif;
+            }
+            img{
+                width: 300px;
+                margin-left: 40%;
+                border: black;
+                border-style: solid;
+                border-width: medium;
+                border-radius: 10px;
+                margin-top: -20%;
+                padding: 0px;
+            }
+            body{
+                background-image: linear-gradient(gray,white);
+            }
+
+            .gen{
+                color: red !important;
+            }
+
+            #newgen{
+                color: aqua;
+            }
+
+            #pad{
+                width: 100px;
+                background-color: royalblue;
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">Umair khan</marquee>
+        <form action="mailto:uh845@gmai.com" method="POST">
+        Name: <br>
+        <input type="text" name="Name" placeholder="Enter your Name" required>
+        <br><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <label for="gender-m" class="gen" id="newgen">Male</label>
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f" class="gen">Female</label>
+        <br><br>
+        Skills:
+        <input type="Checkbox" name="Skills" id="Skill1" value="HTML">
+        <label for="Skill1">HTML</label>
+        <input type="Checkbox" name="Skills" id="Skill2" value="CSS">
+        <label for="Skill2">CSS</label>
+        <br><br>
+        <input type="Submit" name="Submit" value="Submit">
+        <input type="Reset" value="Reset">
+        </form>
+
+        <br>
+        <br>
+        List of Friends:
+        <select name="List of Friends" id="">
+            <option>--Select a Friend--</option>
+            <option>Mohd NIhal Khan</option>
+            <option selected>Mohd Qadir Huda</option>
+            <option>Mohammed Wasil</option>
+            <option>Mohammad Shahvez</option>
+        </select>
+        <br><br>
+        <img src="devilarmy.jpg.jpg" >
+        <div id="pad">
+            <p style="background-color: skyblue;">Apple</p>
+        </div>
+    </body>
+</html>
